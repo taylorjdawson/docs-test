@@ -1,8 +1,9 @@
 name: Extract Adobe publication
 
 on:
-  pull_request:
-    branches: [master, main]
+  push:
+    branches:
+      - chatgpt/adobe-publication-extract-20260728
   workflow_dispatch:
 
 permissions:
